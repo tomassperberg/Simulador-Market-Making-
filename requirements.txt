@@ -1,0 +1,29 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# requirements.txt
+# Proyecto 03 — Microestructura y Market Making
+# Curso: Trading Cuantitativo · MFQ · 1er Bimestre 2026
+#
+# Instalación:
+#   pip install -r requirements.txt
+#
+# Python >= 3.9 requerido
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Núcleo científico ─────────────────────────────────────────────────────────
+numpy>=1.24
+pandas>=2.0
+scipy>=1.11
+
+# ── Visualización ─────────────────────────────────────────────────────────────
+matplotlib>=3.7
+seaborn>=0.13
+
+# ── Series temporales y econometría ───────────────────────────────────────────
+statsmodels>=0.14
+
+# ── Serialización de datos ────────────────────────────────────────────────────
+pyarrow>=14.0
+
+# ── Entorno interactivo (notebook) ────────────────────────────────────────────
+jupyter>=1.0
+ipykernel>=6.0
